@@ -1,0 +1,18 @@
+items:
+  - company: Ericsson
+    role: Software Development Intern
+    location: Ottawa, ON
+    start: May 2025
+    end: Present
+    bullets:
+      - Built a retrieval-augmented chatbot on Cloud RAN docs; adopted by the team
+      - Engineered 20+ automated C++ pipelines for 5G message validation; 100% coverage
+  - company: BlackBerry
+    role: Software Development Intern
+    location: Ottawa, ON
+    start: May 2024
+    end: Aug 2024
+    bullets:
+      - Automated data generation/validation with Python JSON patching and multi-version SDK support
+      - Designed a C++ API for permissions and IDs across 1,000+ vehicle signals
+      - Re-engineered GitLab CI/CD with Dockerized Linux tests (100+ automated builds)

@@ -1,0 +1,12 @@
+items:
+  - name: Global Trade ETL
+    tags: [Python, Pandas, Pandera, PostgreSQL, lxml]
+    link: https://github.com/sanvikaushik/global-trade-dashboard
+    summary: >
+      XML→Parquet→Postgres pipeline with schema validation and idempotent upserts;
+      ~1.2M rows/min local throughput; blocked 23% malformed rows in QA.
+  - name: Dual Wordle Solver
+    tags: [Ruby, React]
+    link: https://github.com/sanvikaushik/Wordle_Dual_AI
+    summary: >
+      Bayes-based dual Wordle solver; ~5.4 average guesses across 300 sims; animated React UI.

@@ -1,0 +1,8 @@
+<div style="border:1px solid #ddd;border-radius:10px;padding:1rem;margin:1rem 0;">
+  <h3 style="margin-top:0;">{{ include.title }}</h3>
+  {% if include.meta %}<p style="color:#666;margin:.25rem 0 0;">{{ include.meta }}</p>{% endif %}
+  {% if include.body %}<p style="margin:.75rem 0 0;">{{ include.body }}</p>{% endif %}
+  {% if include.link %}
+    <p style="margin:.5rem 0 0;"><a href="{{ include.link }}" target="_blank">View</a></p>
+  {% endif %}
+</div>

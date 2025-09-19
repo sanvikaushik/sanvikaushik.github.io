@@ -1,0 +1,10 @@
+# _data/profile.yml
+name: Sanvi Kaushik
+tagline: 3rd year Software Engineering @ Carleton
+intro: >
+  Hey—I’m Sanvi. I love building data pipelines, performance tooling, and
+  ML-powered features. I’ve interned at Ericsson and BlackBerry and I’m currently
+  shipping an ETL project with Pandas, Pandera, and PostgreSQL.
+photos:
+  - /assets/me-1.jpg
+  - /assets/me-2.jpg
