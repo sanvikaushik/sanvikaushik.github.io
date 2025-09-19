@@ -1,16 +1,10 @@
 ---
-layout: page
+layout: default
 title: Experience
 permalink: /experience
 ---
-{% for e in site.data.experience.items %}
-  {% include card.html
-    title=e.role | append: ' — ' | append: e.company
-    meta=e.location | append: ' · ' | append: e.start | append: ' – ' | append: e.end
-  %}
-  <ul>
-  {% for b in e.bullets %}
-    <li>{{ b }}</li>
-  {% endfor %}
-  </ul>
-{% endfor %}
+- **Software Development Intern — Ericsson** (May 2025 – Present)  
+  Built a retrieval-augmented chatbot… 100% coverage on 5G pipelines…
+
+- **Software Development Intern — BlackBerry** (May 2024 – Aug 2024)  
+  Automated data generation… re-engineered CI/CD…

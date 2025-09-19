@@ -1,8 +1,7 @@
 ---
-layout: page
+layout: default
 title: Home
 permalink: /
 ---
-{% assign p = site.data.profile %}
-<p><strong>Hey—I’m {{ p.name }}.</strong> {{ p.tagline }}</p>
-<p><a href="{{ site.resume_url | relative_url }}">View my resume</a></p>
+**Hey—I’m Sanvi.** 3rd year Software Engineering @ Carleton.  
+Here’s my <a href="{{ site.resume_url | relative_url }}">resume</a>.

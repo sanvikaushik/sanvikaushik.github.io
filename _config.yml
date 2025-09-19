@@ -1,10 +1,11 @@
 title: Sanvi Kaushik
 description: 3rd year Software Engineering @ Carleton
-theme: jekyll-theme-cayman  
+theme: jekyll-theme-cayman
+
+url: "https://sanvikaushik.com"
+baseurl: ""     
 
 author: Sanvi Kaushik
-resume_url: /assets/resume_2025.pdf
+resume_url: /assets/resume.pdf
 github_url: https://github.com/sanvikaushik
-linkedin_url: https://www.linkedin.com/in/sanvi-705v1/
-
-plugins: []
+linkedin_url: https://www.linkedin.com/in/sanvikaushik

@@ -1,15 +1,10 @@
 ---
-layout: page
+layout: default
 title: Projects
 permalink: /projects
 ---
-{% for pr in site.data.projects.items %}
-  {% include card.html
-    title=pr.name
-    body=pr.summary
-    link=pr.link
-  %}
-  {% if pr.tags %}
-    <p style="margin-top:-.5rem;color:#666;">{{ pr.tags | join: ' · ' }}</p>
-  {% endif %}
-{% endfor %}
+- **Global Trade ETL** — Python, Pandas, Pandera, PostgreSQL  
+  XML→Parquet→Postgres, ~1.2M rows/min, 23% malformed blocked in QA.
+
+- **Dual Wordle Solver** — Ruby, React  
+  Bayes solver, ~5.4 average guesses across 300 sims.

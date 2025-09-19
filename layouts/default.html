@@ -4,12 +4,11 @@
   <meta charset="utf-8">
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}{% comment %}works with GitHub theme SEO defaults{% endcomment %}
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
   <header style="max-width:900px;margin:2rem auto 1rem;">
-    <h1 style="margin:0;">{{ site.title }}</h1>
+    <h1 style="margin:0;"><a href="{{ '/' | relative_url }}" style="text-decoration:none;color:#0366d6;">{{ site.title }}</a></h1>
     <p style="margin:0;color:#666;">{{ site.description }}</p>
     {% include nav.html %}
   </header>
